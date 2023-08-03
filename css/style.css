@@ -5,3 +5,27 @@
 @tailwind utilities;
 
 @tailwind variants;
+
+.address-container {
+  @apply flex items-center border border-transparent rounded-sm px-2 py-2 md:py-0;
+}
+
+.address-container:hover {
+  @apply border-white;
+}
+
+.item-nav-mid {
+  @apply mr-4 border border-transparent rounded-sm px-2 py-1;
+}
+
+.item-nav-mid:hover {
+  @apply border-white;
+}
+
+.item-nav-inf {
+  @apply border-b-2 border-transparent py-1 px-3;
+}
+
+.item-nav-inf:hover {
+  @apply hover:text-orange-650 hover:border-orange-650;
+}
